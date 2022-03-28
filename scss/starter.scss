@@ -36,6 +36,10 @@ $body-bg: #fff;
 $border-radius: .4rem;
 $success: #7952b3;
 
+$primary: #4cd035;
+$info: #28a711;
+@import "_variable";
+
 // Required
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
@@ -81,17 +85,47 @@ $success: #7952b3;
 @import "bootstrap/scss/utilities/api";
 
 
+
 //
 // Custom styles
 //
 
 @import "icon-list";
+@import "fontiran.css";
+
 
 body {
   padding: 1.5rem;
+  direction: rtl;
+  background: #ddd url("/assets/img/bg.jpg") no-repeat;
+  font-family: 'IRANSansX', sans-serif;
 }
 
 // Style Bootstrap icons
 .bi {
   fill: currentColor;
 }
+
+.font-size13{
+  font-size: 13px;
+}
+.font-size14{
+  font-size: 14px;
+}
+
+.today-word{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 0 5px 5px 0;
+  padding-top:40px;
+  font-size:13px;
+}
+.today-date{
+  display: inline-block;
+  width:  calc(100% - 100px);
+  float: left;
+  height: 100px;
+  font-size: 14px;
+}
+
