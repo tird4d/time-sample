@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/assets/css/starter.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/starter.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/starter.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/starter.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_variable.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/starter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/starter.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648478640163</updated>
       <workItem from="1648478641297" duration="21071000" />
-      <workItem from="1648548598769" duration="6074000" />
+      <workItem from="1648548598769" duration="6375000" />
     </task>
     <servers />
   </component>
