@@ -95,7 +95,6 @@ $info: #28a711;
 
 
 body {
-  padding: 1.5rem;
   direction: rtl;
   background: #ddd url("/assets/img/bg.jpg") no-repeat;
   font-family: 'IRANSansX', sans-serif;
@@ -113,16 +112,33 @@ body {
 .today-word{
   display: inline-block;
   width: 100px;
-  height: 100px;
   border-radius: 0 5px 5px 0;
-  padding-top:40px;
   font-size:13px;
 }
 .today-date{
   display: inline-block;
-  width:  calc(100% - 100px);
-  float: left;
-  height: 100px;
   font-size: 14px;
+  width: 100%;
 }
 
+.today-date .date-box{
+  height: 100px;
+}
+
+.quote {
+  .bi-quote{
+    font-size: 6rem;
+    color:gray;
+    line-height:0;
+  }
+  p{
+    padding-top: 35px;
+    text-align: justify;
+    padding-left: 30px;
+  }
+  .writer{
+    margin-top: -15px;
+    padding-left: 30px;
+  }
+
+}

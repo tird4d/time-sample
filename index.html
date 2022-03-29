@@ -2,56 +2,61 @@
 <html lang="fa">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/css/starter.css">
   <title>Time</title>
 </head>
 <body>
 <header class="container">
-  <div class="logo p-3 text-start">
+  <div class="logo p-4 text-center text-sm-start">
     <img src="assets/img/logo.svg" width="300" alt="time.ir">
   </div>
   <div class="dark-mode-sw"></div>
 </header>
 <section>
-  <div class="container bg-white p-3">
-    <div class="text-center text-white">
-      <div class="today-word bg-info fw-bold border-start">
-        تاریخ امروز
-      </div>
-      <div class="today-date pt-2 bg-primary">
-        <div class="row">
-          <div class="col-xl-3">
-            <div class="font-size14 p-2"><span class="border-bottom">خورشیدی</span></div>
-            <div class="font-size13">۱۴۰۱/۰۱/۰۹</div>
-            <div class="font-size13">سه شنبه - ۹ فروردین ۱۴۰۱</div>
-          </div>
-          <div class="col-xl-3">
-            <div class="font-size14 p-2"><span class="border-bottom">میلادی</span></div>
-            <div class="font-size13 fw-bold">2022-03-29</div>
-            <div class="font-size13 fw-bold">Tuesday - 2022 29 March</div>
-          </div>
-          <div class="col-xl-3">
-            <div class="font-size14 p-2"><span class="border-bottom">قمری</span></div>
-            <div class="font-size13 fw-bold">۱۴۴۳/۰۸/۲۶</div>
-            <div class="font-size13 fw-bold">الثلاثاء - ٢٦ شعبان ١٤٤٣</div>
-          </div>
-          <div class="col-xl-3">
-            <div class="font-size14 p-2"><span class="border-bottom">برج فلکی</span></div>
-            <div class="font-size13 fw-bold">حَمَل</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row p-5">
-      <div class="col-md-6 col-sm-12 col-xs-12 text-center">
+  <div class="container bg-white pt-3">
+    <div class="row">
+      <!-- clock-->
+      <div class="col-xl-6 col-md-4 col-sm-12 text-center order-md-2 mt-2 mt-xl-5">
         <div><img src="assets/img/clock.jpg" alt="clock" width="250"></div>
       </div>
 
-      <div class="col-md-6 col-sm-12 col-xs-12">
+      <!--today-->
+      <div class="col-12 order-md-1">
+        <div class="text-center text-white d-flex">
+          <div class="today-word bg-info fw-bold border-start d-none d-sm-inline  pt-4">
+            تاریخ امروز
+          </div>
+          <div class="today-date bg-primary pt-1">
+            <div class="row">
+              <div class="date-box col-xl-3 col-sm-6 col-xs-12">
+                <div class="font-size14 p-2"><span class="border-bottom">خورشیدی</span></div>
+                <div class="font-size13">۱۴۰۱/۰۱/۰۹</div>
+                <div class="font-size13">سه شنبه - ۹ فروردین ۱۴۰۱</div>
+              </div>
+              <div class="date-box col-xl-3 col-sm-6 col-xs-12">
+                <div class="font-size14 p-2"><span class="border-bottom">میلادی</span></div>
+                <div class="font-size13 fw-bold">2022-03-29</div>
+                <div class="font-size13 fw-bold">Tuesday - 2022 29 March</div>
+              </div>
+              <div class="date-box col-xl-3 col-sm-6 col-xs-12">
+                <div class="font-size14 p-2"><span class="border-bottom">قمری</span></div>
+                <div class="font-size13 fw-bold">۱۴۴۳/۰۸/۲۶</div>
+                <div class="font-size13 fw-bold">الثلاثاء - ٢٦ شعبان ١٤٤٣</div>
+              </div>
+              <div class="date-box col-xl-3 col-sm-6 col-xs-12">
+                <div class="font-size14 p-2"><span class="border-bottom">برج فلکی</span></div>
+                <div class="font-size13 fw-bold">حَمَل</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xl-6 col-md-8 col-sm-12 order-md-3 mt-2 mt-xl-5">
         <h2 class="fs-5 text-primary fw-bold text-center">
           <span class="border-bottom p-2">اوقات شرعی به افق شهرها</span>
         </h2>
@@ -171,7 +176,24 @@
         </form>
 
       </div>
+
+
+      <div class="quote order-5 font-size14 pt-2 pt-sm-5">
+          <div class="d-flex ">
+            <i class="bi bi-quote d-none d-sm-inline"></i>
+            <p class="fw-bold m-0">
+              آنگاه هستند آنانی که روانِ مسلول دارند.اینان به دنیا نیامده رو به مرگ‌ اند و شیفته‌یِ آموزه‌هایِ خستگی و گوشه‌گیری. آرزویِ مرگ دارند و بر ما ست که آرزوشان را روا شمریم! زنهار از بیدار کردنِ این مردگان و شکستنِ این تابوت‌هایِ زنده!
+            </p>
+          </div>
+        <div class="text-start writer">
+          <a class="fw-bold" href="#">
+            فرانسوا ولتر
+          </a>
+        </div>
+
+      </div>
     </div>
+
   </div>
 
 </section>
